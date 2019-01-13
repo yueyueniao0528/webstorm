@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天练习</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 微软雅黑;
+            font-size: 8px;
+        }
+        .border{
+            border: 5px solid #F5F5F5;
+        }
+        .title{
+            background-color: #1976D2;
+            height: 30px;
+        }
+        hr{
+            position: relative;
+            top: 100px;
+        }
+        .ziti{
+            height: 30px;
+            width: 40px;
+            color: white;
+            line-height: 30px;
+            text-align: center;
+            border-right: 1px solid white;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: lighter;
+        }
+        .in{
+            height: 15px;
+            width: 100px;
+            color: black;
+            background-color: white;
+            line-height: 15px;
+            text-align:left;
+            border-radius: 50px 50px 50px 50px ;
+            position: relative;
+            left: 500px;
+        }
+        .in2{
+            height: 15px;
+            width: 40px;
+            border-radius: 50px 50px 50px 50px ;
+            position: relative;
+            left: 510px;
+            top: -1px;
+            background-color: #00BCD4;
+        }
+        .ziti2{
+            font-size: 10px;
+            color: gray;
+            margin-left: 5px;
+        }
+        .ziti3 {
+            font-size: 10px;
+            color: white;
+            margin-left: 5px;
+        }
+
+        .le{
+            height: 600px;
+            width: 260px;
+            position: absolute;
+            left: -3px;
+        }
+        .ler{
+            height: 150px;
+            width: 110px;
+            position:absolute;
+            left: 140px;
+
+        }
+        .lerc{
+            height: 30px;
+            width: 100px;
+        }
+        .leimg{
+            height:50px ;
+            width: 106px;
+            position:relative;
+            left: 1px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .lerc{
+            height: 30px;
+            width: 100px;
+            color: whitesmoke;
+        }
+        .lercc{
+            height: 30px;
+            width: 100px;
+        }
+        .lerb{
+            height: 30px;
+            width: 100px;
+        }
+        .lezi1{
+            font-size: 13px;
+            font-weight: bold;
+            color: gray;
+            line-height: 30px;
+            text-align: center;
+        }
+        .lezi2{
+            font-size: 8px;
+            font-weight: lighter;
+            color: gray;
+            margin-left: 5px;
+        }
+        .lezi3{
+            font-size: 10px;
+            font-weight: normal;
+            color: gray;
+            position: absolute;
+            left: 5px;
+          }
+        .lezi4{
+            position: absolute;
+            top: 135px;
+        }
+        .lezi5{
+            font-size: 10px;
+            font-weight: normal;
+            color: gray;
+            position: absolute;
+            right: 5px;
+        }
+        .lezi6{
+            position: absolute;
+            top: 135px;
+        }
+
+        .ce{
+            height: 600px;
+            width: 350px;
+            position:absolute;
+            left: 258px;
+        }
+        .cet{
+            height: 100px;
+            width: 345px;
+            position:absolute;
+            left: 3px;
+        }
+        .cett {
+            height: 60px;
+            width: 300px;
+            position: absolute;
+            left: 20px;
+            top: 8px;
+            background-color: whitesmoke;
+            box-shadow: 0 0 2px gray;
+            border-radius: 5px 5px 5px 5px;
+        }
+        .cettr {
+            height: 13px;
+            width: 45px;
+            position: absolute;
+            left: 280px;
+            top: 81px;
+            background-color: #29B6F6;
+            line-height: 13px;
+            text-align: center;
+        }
+        .cebt{
+            height:100px;
+            width: 340px;
+            position:absolute;
+            top: 110px;
+            left: 5px;
+
+
+        }
+        .cebtr {
+            height: 70px;
+            width: 250px;
+            position: absolute;
+            left: 60px;
+            top: 8px;
+            background-color: darkgray;
+            border-left: #29B6F6 2px solid;
+            box-shadow: 0 0 2px gray;
+            border-radius: 0 5px 5px 0;
+        }
+        .cebtl{
+            height: 30px;
+            width: 30px;
+            position:absolute;
+            left: 10px;
+            top: 10px;
+        }
+        .cebb{
+            height:200px;
+            width: 340px;
+            position:absolute;
+            top: 220px;
+            left: 5px;
+
+        }
+        .cebbr {
+            height: 150px;
+            width: 250px;
+            position: absolute;
+            left: 60px;
+            top: 8px;
+            background-color: whitesmoke;
+            border-left: #29B6F6 2px solid;
+        }
+        .cebbl{
+            height: 30px;
+            width: 30px;
+            position:absolute;
+            left: 10px;
+            top: 10px;
+        }
+        .cebbbl {
+            height: 70px;
+            width: 250px;
+            position: absolute;
+            left: 30px;
+            top: 400px;
+            background-color: darkgray;
+            border-right: #29B6F6 2px solid;
+            box-shadow: 0 0 2px gray;
+            border-radius: 5px 0 0 5px;
+        }
+        .ceimg{
+            height: 30px;
+            width: 30px;
+            background-size: contain;
+            background-position: center;
+            border-radius: 50%;
+
+        }
+        .ceimg1{
+            height: 10px;
+            width: 10px;
+            background-size: contain;
+            background-position: center;
+
+        }
+        .ceimg2{
+            position: relative;
+            left: 170px;
+            top: 25px;
+        }
+        .ceimg3{
+            position: relative;
+            left: 230px;
+            top: 145px;
+        }
+        .ceimg4{
+            height: 30px;
+            width: 30px;
+            background-size: contain;
+            background-position: center;
+            border-radius: 50%;
+            position: relative;
+            top: 222px;
+            left: 8px;
+
+        }
+        .ceimg5{
+            position: relative;
+            left: 180px;
+            top: 85px;
+            margin-left: 5px;
+        }
+        .ceimg6{
+            height: 30px;
+            width: 30px;
+            background-size: contain;
+            background-position: center;
+            border-radius: 50%;
+            position: relative;
+            top: 425px;
+            left: 558px;
+        }
+        .ceimg7{
+            position: relative;
+            left: 40px;
+            top: 455px;
+        }
+
+        .cez1{
+            font-size: 12px;
+            font-family:微软雅黑;
+            font-weight: bolder;
+            color: #29B6F6;
+            margin-left:  5px;
+
+        }
+        .cez2{
+            font-size: 8px;
+            font-family:微软雅黑;
+            font-weight: lighter;
+            color: gray;
+            margin-left:  5px;
+        }
+        .cez3{
+            position: absolute;
+            right: 15px;
+            top: 5px;
+        }
+        .cez4{
+            position: absolute;
+            right: 185px;
+            top: 25px;
+        }
+        .cez5{
+            position: absolute;
+            top:5px;
+            margin-left: 10px;
+        }
+
+        .re{
+            height: 600px;
+            width: 250px;
+            position: absolute;
+            left: 616px;
+        }
+        .rer{
+            height: 150px;
+            width: 100px;
+            position:absolute;
+            right: 150px;
+            color: whitesmoke;
+        }
+
+        .inbk{
+            display: inline-block;
+        }
+
+        </style>
+</head>
+<body>
+<div class="title r">
+    <div class="ziti inbk"><a href="#"> Home</a></div>
+    <div class="ziti inbk"><a href="#">Profile</a></div>
+    <div class="ziti inbk"><a href="#">Messages</a></div>
+    <div class="ziti inbk"><a href="#">Setings</a></div>
+    <div class="in inbk">
+        <div class="ziti2">search...</div> </div>
+    <div class="in2 inbk ">
+        <div class="ziti3">Search</div></div>
+</div>
+      <div class="le inbk border">
+          <div class="ler border" >
+              <div class="lert " >
+                  <div class="leimg " style="background-image: url(../../img/tesla-roadster-2018-02.jpg)">
+                  </div>
+              </div>
+                  <div class="lerc ">
+                      <div class="lezi1 "> Neusofe</div></div>
+              <div class="lercc ">
+                  <div class="lezi2 "> Welcom to neusofe learn java and H5 from Neusofe</div>
+              </div>
+              <div class="lerb ">
+                  <div class="lezi3">Fried</div>
+                  <div class="lezi3 lezi4">29</div>
+                  <div class="lezi5"> Star</div>
+                  <div class="lezi5 lezi6"> 17</div>
+              </div>
+              </div>
+          </div>
+      <div class="ce inbk border">
+          <div class="cet " >
+              <div class="cett  ">
+                 <div class="cez2 "> enter some message...</div>
+              </div>
+              <div class="ceimg1 ceimg5 inbk " style= "background-image: url(../../img/xj.svg)"></div>
+              <div class="ceimg1 ceimg5 inbk "   style= "background-image: url(../../img/jiaojuan.svg)"></div>
+              <div class="ceimg1 ceimg5 inbk "    style= "background-image: url(../../img/wjj.svg)"></div>
+              <div class="ceimg1 ceimg5 inbk"    style= "background-image: url(../../img/f.svg)"></div>
+              <div class="ceimg1 ceimg5 inbk "    style= "background-image: url(../../img/bird1.svg)" ></div>
+              <div class="cettr cez2 " >Send</div>
+              <hr>
+          </div>
+          <div class="cebt " >
+              <div class="cebtr " >
+                  <div class="cez1 inbk ">Tom</div>
+                  <div class=" cez2 cez3 inbk ">a minute age</div>
+                  <div class="cez2 ">Hello,everybody!</div>
+                  <div class="ceimg1 ceimg2 inbk " style= "background-image: url(../../img/share1.svg)"></div>
+                  <div class="ceimg1 ceimg2 inbk "   style= "background-image: url(../../img/zan.svg)"></div>
+                  <div class="ceimg1 ceimg2 inbk "    style= "background-image: url(../../img/bird.svg)"></div>
+                  <div class="ceimg1 ceimg2 inbk"    style= "background-image: url(../../img/witer.svg)"></div>
+                  <div class="ceimg1 ceimg2 inbk "    style= "background-image: url(../../img/share.svg)" ></div>
+              </div>
+                <div class="cebtl " >
+                    <div class="ceimg " style= "background-image: url(../../img/boy.png)" ></div>
+                </div>
+          </div>
+          <div class="cebb">
+              <div class="cebbl "></div>
+              <div class="cebbr ">
+                      <div class="cez1 inbk ">Jerry</div>
+                      <div class=" cez2 cez3 inbk ">2017-05-18 08:41</div>
+                      <div class="cez2 ">
+                      <p>qqqqqwwwwweeeeerrrrrtttttyyyyyuuuuuiiiiiooooopppppaaaaa<br>
+                         sssssdddddfffffggggghhhhhjjjjjkkkkklllllzzzzzxxxxxcccccvvvvv<br>
+                         bbbbbnnnnnmmmmm<br>qqqqqwwwwweeeeerrrrrtttttyyyyyuuuuuiiiiiooooopppppaaaaa<br>
+                         sssssdddddfffffggggghhhhhjjjjjkkkkklllllzzzzzxxxxxcccccvvvvv<br>
+                         bbbbbnnnnnmmmmm<br>
+                         qqqqqwwwwweeeeerrrrrtttttyyyyyuuuuuiiiiiooooopppppaaaaa<br>
+                         sssssdddddfffffggggghhhhhjjjjjkkkkklllllzzzzzxxxxxcccccvvvvv<br>
+                         bbbbbnnnnnmmmmm<br></p>
+              </div>
+                          </div>
+                      <div class="ceimg1 ceimg3 inbk " style= "background-image: url(../../img/share1.svg)"></div>
+                      <div class="ceimg1 ceimg3 inbk "   style= "background-image: url(../../img/zan.svg)"></div>
+                      <div class="ceimg1 ceimg3 inbk "    style= "background-image: url(../../img/bird.svg)"></div>
+                      <div class="ceimg1 ceimg3 inbk"    style= "background-image: url(../../img/witer.svg)"></div>
+                      <div class="ceimg1 ceimg3 inbk "    style= "background-image: url(../../img/share.svg)" ></div>
+                  </div>
+                  <div class="cebbl " >
+                      <div class="ceimg4 " style= "background-image: url(../../img/girl.png)" ></div>
+                  </div>
+          <div class="cebbbl ">
+              <div class="cez1 cez3 inbk ">Me</div>
+              <div class=" cez2 cez5 inbk ">2019-01-11 11:11</div>
+              <div class="cez2 cez4 ">
+                  大家好！！！！
+              </div>
+          </div>
+          <div class="ceimg1 ceimg7 inbk " style= "background-image: url(../../img/share1.svg)"></div>
+          <div class="ceimg1 ceimg7 inbk "   style= "background-image: url(../../img/zan.svg)"></div>
+          <div class="ceimg1 ceimg7 inbk "    style= "background-image: url(../../img/bird.svg)"></div>
+          <div class="ceimg1 ceimg7 inbk"    style= "background-image: url(../../img/witer.svg)"></div>
+          <div class="ceimg1 ceimg7 inbk "    style= "background-image: url(../../img/share.svg)" ></div>
+      </div>
+<div class="cebbl " >
+    <div class="ceimg6 " style= "background-image: url(../../img/boy.png)" ></div>
+</div>
+
+       <div class="re inbk border">
+           <div class="rer border">
+               <div class="lezi2 ">...自由发挥吧....</div>
+           </div>
+       </div>
+</body>
+</html>

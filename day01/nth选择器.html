@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nth选择器</title>
+    <style>
+
+        ul li:last-child{
+         color: red;
+     }
+     ul li:first-child {
+           color: chartreuse;
+     }
+     ul li:nth-child(2n) {
+         color: red;
+     }
+        ul li:nth-child(2n-1) {
+            color: red;
+        }
+        table tr:nth-child(2n) {
+            background-color: #29B6F6;
+        }
+        table tr:nth-child(2n-1) {
+            background-color: brown;
+        }
+
+    </style>
+</head>
+<body>
+<ul>
+    <li>java</li>
+    <li>python</li>
+    <li>css</li>
+    <li>js</li>
+    <li>c++</li>
+    <li>c</li>
+</ul>
+   <table border="1" width="%30">
+       <tr>
+           <td>A1</td>
+           <td>A2</td>
+       </tr>
+       <tr>
+           <td>A3</td>
+           <td>A4</td>
+       </tr>
+       <tr>
+           <td>A5</td>
+           <td>A6</td>
+       </tr>
+       <tr>
+           <td>A7</td>
+           <td>A8</td>
+       </tr>
+       <tr>
+           <td>A9</td>
+           <td>A10</td>
+       </tr>
+       <tr>
+           <td>A11</td>
+           <td>A12</td>
+       </tr>
+   </table>
+</body>
+</html>
