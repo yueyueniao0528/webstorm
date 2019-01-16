@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微软雅黑;
+}
+.border{
+    border: red solid 1px;
+}
+.al-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.al-picture{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/*hr{*/
+    /*margin-top:7px;*/
+    /**margin: 0;*/
+    /*border: 2px;*/
+    /*color: #EEEEEE;*/
+    /*background-color: #EEEEEE;*/
+    /*height: 1px*/
+
+/*}*/
+.border1{
+    border-bottom: #EEEEEE 5px solid;
+}
+.flew-flow1{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.flew-flow2{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}

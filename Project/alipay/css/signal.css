@@ -1,0 +1,161 @@
+.signal{
+    height: 36px;
+    background-color: #1976D2;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 12px
+
+}
+#signal-left{
+    height: 36px;
+    flex: 1;
+    justify-content: flex-start;
+    margin-left: 45px;
+}
+#signal-center{
+    height: 36px;
+    width: 80px;
+    justify-content: flex-start;
+}
+#signal-center-area{
+    height: 36px;
+    width: 120px;
+    background-color: #4b5257;
+    border-radius: 0px 0px 10px 10px;
+}
+#signal-center-areal{
+    height: 36px;
+    /*width: 30px;*/
+    flex: 1;
+}
+#signal-center-areac{
+    height: 36px;
+    width: 60px;
+}
+#signal-center-arear{
+    height: 36px;
+    /*width: 30px;*/
+    flex: 1;
+}
+.signal-center-area-tu{
+    height: 20px;
+    width: 20px;
+    background-color: #212121;
+    border-radius: 50%;
+}
+.signal-center-area-tu1{
+    height: 10px;
+    width: 40px;
+    background-color: #212121;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+#signal-right{
+    height: 36px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#signal-area{
+    height: 16px;
+    width: 40px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 1px;
+
+}
+#signal-area div{
+    width: 3px;
+    margin-left: 4px;
+    border-radius: 1px;
+
+}
+#signal-area div:nth-child(1){
+    height: 6px;
+}
+#signal-area div:nth-child(2){
+    height: 9px;
+}
+#signal-area div:nth-child(3){
+    height: 12px;
+}
+#signal-area div:nth-child(4){
+    height: 15px;
+}
+#signal-area div:nth-child(5){
+    height: 18px;
+}
+.signal-ok{
+    background-color: white;
+}
+.signal-no{
+    background-color: grey;
+}
+#operator{
+    height: 16px;
+}
+
+#xg {
+    margin-right: 4px;
+    height: 16px;
+}
+
+#battery-area{
+    height: 36px;
+    width: 40px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#battery-body {
+    height: 12px;
+    width: 32px;
+    border: white solid 1px;
+    border-radius: 1px;
+}
+#battery-header{
+    height: 6px;
+    width: 2px;
+    background-color: white;
+    border-radius: 0 1px 1px 0;
+
+}
+#battery-core{
+    height: 10px;
+    width: 20px;
+    background-color:green;
+    margin: 0.5px;
+    animation: charge 5s linear infinite;
+
+}
+@keyframes charge {
+    0%{
+        background-color: red;
+        width: 1px;
+    }
+    20%{
+        background-color: yellow;
+        width: 4px;
+
+    }
+    50%{
+        background-color: #3bff1c;
+        width: 10px;
+    }
+    80%{
+        background-color: greenyellow;
+        width: 16px;
+    }
+    100%{
+        ackground-color: green;
+        width: 20px;
+    }
+}

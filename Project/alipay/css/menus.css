@@ -1,0 +1,99 @@
+
+.menus{
+    height: 60px;
+    background-color: #EEEEEE;
+}
+#menus-area{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#menus-left{
+    /*width:20%;*/
+    flex: 1;
+    /*height: 40px;*/
+
+}
+#menus-centerl{
+    flex: 1;
+    /*width:20%;*/
+}
+#menus-centerr{
+    flex: 1;
+    width:20%;
+}
+#menus-rightt{
+    flex: 1;
+    /*width:20%;*/
+}
+#menus-rightr{
+    flex: 1;
+    /*width:20%;*/
+}
+
+
+
+
+
+#menus-leftt{
+    height: 35px;
+}
+#menus-centerlt{
+    /*flex: 1;*/
+    height: 35px;
+}
+menus-centerrt{
+    /*flex: 1;*/
+    height: 50px;
+}
+#menus-rightlt{
+    /*flex: 1;*/
+    height: 35px;
+}
+#menus-rightrt{
+    /*flex: 1;*/
+    height: 35px;
+}
+
+.menus-img{
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+.menus-ziti{
+    flex: 1;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: grey;
+    font-size: 12px;
+}
+#menus-img1{
+    background-image: url(../img/支付宝.svg);
+}
+#menus-img2{
+    background-image: url(../img/财富.svg);
+}
+#menus-img2:hover{
+    background-image: url(../img/财富p.svg);
+}
+#menus-img3{
+    background-image: url(../img/口碑.svg);
+}
+
+#menus-img3:hover{
+    background-image: url(../img/口碑p.svg);
+}
+
+#menus-img4{
+    background-image: url(../img/朋友.svg);
+}
+#menus-img4:hover{
+    background-image: url(../img/朋友p.svg);
+}
+#menus-img5{
+    background-image: url(../img/我的.svg);
+}
+#menus-img5:hover{
+    background-image: url(../img/我的p.svg);
+}

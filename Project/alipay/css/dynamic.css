@@ -1,0 +1,381 @@
+#dynamic {
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+
+    flex-flow: column;
+
+}
+#dynamic-top{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.dynamic-top-area{
+    flex: 1;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row;
+}
+.dynamic-top-marea{
+    flex: 1;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow:column;
+}
+.dynamic-top-imgarea{
+    flex: 1.5;
+    width: 30px;
+}
+.dynamic-top-img{
+    height: 25px;
+    width: 25px;
+}
+
+#dynamic-top-img1{
+
+    background-image: url(../img/转账.svg);
+}
+#dynamic-top-img2{
+    background-image: url(../img/小鸡.svg);
+}
+#dynamic-top-img3{
+    background-image: url(../img/手机.svg);
+}
+#dynamic-top-img4{
+    background-image: url(../img/余额宝.svg);
+}
+#dynamic-top-img5{
+    background-image: url(../img/饿了么.svg);
+}
+#dynamic-top-img6{
+    background-image: url(../img/蚂蚁森林logo.svg);
+}
+#dynamic-top-img7{
+    background-image: url(../img/校.svg);
+}
+#dynamic-top-img8{
+    background-image: url(../img/芝麻信用.svg);
+}
+#dynamic-top-img9{
+    background-image: url(../img/货车.svg);
+}
+#dynamic-top-img10{
+    background-image: url(../img/花呗.svg);
+}
+#dynamic-top-img11{
+    background-image: url(../img/共享单车.svg);
+}
+#dynamic-top-img12{
+    background-image: url(../img/更多.svg);
+}
+
+.dynamic-top-ziti{
+    flex: 1;
+    justify-content: flex-start;
+    font-family: 微软雅黑;
+    color: #212121;
+    font-size:11px;
+}
+#dynamic-centert{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+#dynamic-centert-left{
+    flex: 1.2;
+}
+#dynamic-centert-img{
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/photo/mayi.jpg);
+}
+#dynamic-centert-center{
+    flex: 5;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+#dynamic-centert-centert{
+    flex: 1;
+
+}
+#dynamic-centert-centerb{
+    flex: 1;
+
+}
+.dynamic-centert-zitiareal{
+    flex:0.1;
+    margin-top: -10px;
+}
+
+.dynamic-centert-zitiareac{
+    flex:2;
+}
+.dynamic-centert-zitiarear{
+    flex:1;
+}
+.dynamic-centert-ziti1{
+    color: #212121;
+    font-size: 12px;
+}
+.dynamic-centert-ziti2{
+    color: grey;
+    font-size: 8px;
+}
+.dynamic-centert-ziti3{
+    color: grey;
+    font-size: 20px;
+}
+.dynamic-centert-right{
+    flex: 1;
+}
+
+#dynamic-centerc{
+    height:83px;
+}
+.dynamic-centerc-area{
+    height: 80px;
+    width: 100%;
+}
+
+#dynamic-centerc-img{
+    background-image: url(../img/photo/al1.jpg);
+}
+#dynamic-centerc-img:hover{
+    background-image: url(../img/photo/al2.jpg);
+}
+#dynamic-centerc-img:hover:hover{
+    background-image: url(../img/photo/al3.jpg);
+}
+
+.dynamic-centerb{
+   flex: 1px;
+}
+.dynamic-centerb-tt{
+    height: 20px;
+    width: 100%;
+}
+.dynamic-centerb-zi1{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.dynamic-centerb-tb{
+    height: 60px;
+    width: 100%;
+}
+.dynamic-centerb-tbn{
+    height: 50px;
+    width: 90%;
+    margin-top: 10px;
+}
+.dynamic-centerb-tbnl{
+    flex: 1;
+    height: 50px;
+}
+.dynamic-centerb-tbnll{
+    flex:1.5;
+    height: 35px;
+    margin-top: 8px;
+    margin-left: -8px;
+}
+.dynamic-centerb-zi2{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.dynamic-centerb-zi3{
+    font-family: 微软雅黑;
+    font-size: 8px;
+    margin-left: 20px;
+    color: grey;
+}
+
+.dynamic-centerb-tbnlr{
+    flex: 1;
+    height: 35px;
+    margin-top: 8px;
+    justify-content: flex-end;
+}
+.dynamic-centerb-tbnlrma{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+#dynamic-centerb-tbnlrm1{
+    background-image: url(../img/photo/jifen1.jpg);
+}
+#dynamic-centerb-tbnlrm2{
+    background-image: url(../img/photo/haongbao.jpg);
+}
+.dynamic-centerb-tbnlrm3{
+    background-image: url(../img/photo/dengpao.jpg);
+}.dynamic-centerb-tbnr{
+     flex: 1;
+     height: 50px;
+ }
+
+.border2{
+    border-right: #EEEEEE solid 1px;
+}
+.border3{
+    border: #EEEEEE solid 1px;
+    box-shadow: 1px 1px 1px #EEEEEE;
+}
+.dynamic-centerb-zi4{
+   flex: 4;
+    margin-left: 1px;
+    margin-top: 10px;
+}
+.dynamic-centerb-zi5{
+    flex: 1;
+}
+.dynamic-centerbb{
+    height:260px;
+    width: 100%;
+
+}
+.dynamic-centerbbn{
+    height: 260px;
+    width: 90%;
+    margin-top: 10px;
+}
+.dynamic-centerbbnt{
+    height: 100px;
+}
+.dynamic-centerbbnt{
+    flex: 1;
+}
+.dynamic-centerbbntt{
+    flex: 2;
+}
+.dynamic-centerbbntb{
+    flex: 1;
+}
+.dynamic-centerbbntbimg{
+    height: 50px;
+    width: 50px;
+}
+#dynamic-centerbbntbimg1{
+    background-image: url(../img/photo/che.jpg);
+
+}
+#dynamic-centerbbntbimg2{
+    background-image: url(../img/photo/shui.jpg);
+
+}
+#dynamic-centerbbntbimg3{
+    background-image: url(../img/photo/shoujike.jpg);
+
+}
+#dynamic-centerbbntbimg4{
+    background-image: url(../img/photo/cha.jpg);
+
+}
+#dynamic-centerbbntbimg5{
+    background-image: url(../img/photo/shoulian.jpg);
+
+}
+#dynamic-centerbbntbimg6{
+    background-image: url(../img/photo/ludeng.jpg);
+
+}
+.dynamic-centerbbntbzc{
+    height: 20px;
+    width: 100px;
+}
+.dynamic-centerbbntbzcg{
+    flex: 1.2;
+    justify-content: flex-end;
+    margin-left: -5px;
+}
+.dynamic-centerbbntbzcr{
+    flex: 1;
+   margin-left: -50px;
+}
+.dynamic-centerb-zired{
+    color: red;
+}
+.borderb{
+    border-bottom: #EEEEEE solid 1px;
+}
+#dynamic-centerbbt{
+   height: 30px;
+}
+#dynamic-centerbbtr{
+    width: 15%;
+    height: 20px;
+    background-image: linear-gradient(to left, #F57C00,#ef5350);
+    box-shadow: 2px 2px 2px #ef9a9a;
+}
+.dynamic-centerbbtrzi{
+    font-size: 10px;
+    color: white;
+    margin-top: 5px;
+}
+.dynamic-centerbbtrzi2{
+    color: #212121;
+}
+.dynamic-centerbbtl {
+    flex: 1;
+    height: 20px;
+    margin-left: 8px;
+}
+.flew-flow11{
+    display: flex;
+    flex-flow: row;
+}
+
+
+.dynamic-centerbbtr1{
+    width: 15px;
+    height: 15px;
+    background-color: #4b5257;
+    margin-top: 1px;
+    /*margin-left: 5px;*/
+}
+.dynamic-centerbbtr2{
+    flex: 1;
+    height: 15px;
+    margin-top: 1px;
+    /*margin-left: -50px;*/
+}
+.dynamic-center-bonton{
+    height: 30px;
+}
+.dynamic-center-bl{
+    flex: 1.2;
+    height: 30px;
+    justify-content: flex-start;
+    margin-top: 8px;
+    margin-left: -5px;
+}
+.dynamic-center-br{
+    flex: 1;
+    height: 30px;
+
+}
+.dynamic-dynamic-center-brzi{
+    color: grey;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+
+#dynamic-botton{
+    height: 80px;
+}
+.dynamic-botton{
+    height: 80px;
+
+}
+.dynamic-bottonzi{
+    font-size: 12px;
+    color: grey;
+}
