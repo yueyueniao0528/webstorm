@@ -1,0 +1,95 @@
+.dynamic{
+    flex: 1;
+    background-color: #EEEEEE;
+    overflow: scroll;
+}
+#search-area {
+    height: 50px;
+}
+
+#search {
+    width: 98%;
+    height: 30px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#search div {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: gray;
+}
+#search-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-image: url(../img/搜索.svg);
+}
+
+.chat-area{
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.chat-img{
+    height: 50px;
+    width: 50px;
+    margin-left: 4px;
+    border-radius: 1px 1px 1px 1px ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.chat-body{
+    height: 50px;
+    flex: 1;
+    margin-right: 4px;
+    margin-left: 6px;
+    border-bottom: darkgray solid 1px;
+}
+.chat-body-up{
+    height: 25px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.chat-body-name{
+    flex: 1;
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+.chat-body-time{
+    width: 70px;
+    text-align: right;
+    color: grey;
+    font-size: 12px;
+}
+.chat-body-down{
+    display: flex;
+    justify-content: space-between;
+}
+.chat-body-message {
+    flex: 1;
+    color: gray;
+    font-size: 14px;
+    line-height: 28px;
+}
+.chat-body-mute {
+
+    height: 20px;
+    width: 20px;
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url(../img/lingdang.svg);
+}
+
+
+
+

@@ -1,0 +1,86 @@
+.menus{
+    height: 50px;
+    background-color: #EEEEEE;
+}
+#menus-area{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#menus-left{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+#menus-centerl{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+#menus-centerr{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+#menus-right{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.menus-leftt{
+    flex: 3;
+}
+#menus-centerlt{
+    flex: 3;
+}
+menus-centerrt{
+    flex: 3;
+}
+#menus-rightt{
+    flex: 3;
+}
+.menus-img{
+
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.menus-ziti{
+    flex: 1;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: grey;
+    font-size: 12px;
+}
+#menus-img1{
+    background-image: url(../img/chat-press.svg);
+}
+#menus-img2{
+    background-image: url(../img/contact.svg);
+}
+#menus-img2:hover{
+    background-image: url(../img/contact-press.svg);
+}
+#menus-img3{
+    background-image: url(../img/discover.svg);
+}
+
+#menus-img3:hover{
+    background-image: url(../img/discover-press.svg);
+}
+
+#menus-img4{
+    background-image: url(../img/me.svg);
+}
+#menus-img4:hover{
+    background-image: url(../img/me-press.svg);
+}
+
+

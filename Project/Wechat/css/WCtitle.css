@@ -1,0 +1,109 @@
+.title{
+    height: 50px;
+    background-color:#4b5257;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#title-left{
+    height: 50px;
+    width: 50px;
+}
+#title-center{
+    flex: 1;
+    font-size: 20px;
+
+ }
+#title-rightxiu{
+    height: 50px;
+    width: 50px;
+}
+
+#title-right{
+    height: 50px;
+    width: 50px;
+    position:absolute ;
+    right: 5px;
+    background-image: url(../img/sum.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+#title-menuskuo{
+    height: 250px;
+    width: 150px;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+    display: none;
+}
+#title-menusbu1{
+    flex: 1;
+}
+#title-menusbu2{
+    height: 30px;
+    width:30px;
+    background-image: url(../img/sanjiao.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 5px;
+    top: -5px;
+    /*display: none;*/
+}
+#title-menus1{
+    flex: 5;
+}
+#title-menus{
+    height: 210px;
+    width: 150px;
+    background-color:#4b5257 ;
+    position: absolute;
+    right: -0px;
+    top: 10px;
+    /*display: none;*/
+}
+.title-menus-1{
+    display: flex;
+    justify-content: space-between;
+    height:40px;
+    width: 150px;
+}
+.title-menus-1-1{
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+
+}
+#title-menus-img1{
+    background-image: url(../img/发起群聊.svg);
+}
+#title-menus-img2{
+    background-image: url(../img/添加朋友.svg);
+}
+
+#title-menus-img3{
+    background-image: url(../img/扫一扫.svg);
+}
+
+#title-menus-img4{
+    background-image: url(../img/收付款.svg);
+}
+
+#title-menus-img5{
+    background-image: url(../img/帮助与反馈.svg);
+}
+
+.title-menus-1-2{
+    flex: 3;
+    border-bottom: #212121 solid 1px;
+
+}
+
+

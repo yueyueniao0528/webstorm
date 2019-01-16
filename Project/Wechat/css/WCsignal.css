@@ -1,0 +1,132 @@
+.signal{
+    height: 36px;
+    background-color: #4b5257;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 12px
+
+}
+#signal-left{
+    height: 36px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#signal-right{
+    height: 36px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#signal-center{
+    height: 36px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+#xinhao-area{
+    height: 16px;
+    width: 40px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 4px;
+
+}
+#xinhao-area div{
+    width: 3px;
+    margin-left: 4px;
+    border-radius: 1px;
+
+}
+#xinhao-area div:nth-child(1){
+    height: 6px;
+}
+#xinhao-area div:nth-child(2){
+    height: 9px;
+}
+#xinhao-area div:nth-child(3){
+    height: 12px;
+}
+#xinhao-area div:nth-child(4){
+    height: 15px;
+}
+#xinhao-area div:nth-child(5){
+    height: 18px;
+}
+.xinhao-ok{
+    background-color: white;
+}
+.xinhao-no{
+    background-color: grey;
+}
+#yunyingshang{
+    height: 16px;
+}
+
+#xg {
+    margin-left: 4px;
+    height: 16px;
+}
+
+#dianchi-area{
+    height: 36px;
+    width: 70px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#dianchi-body {
+    height: 12px;
+    width: 32px;
+    border: white solid 1px;
+    border-radius: 1px;
+}
+#dianchi-header{
+    height: 6px;
+    width: 2px;
+    background-color: white;
+    border-radius: 0 1px 1px 0;
+
+}
+#dianchi-hexin{
+    height: 10px;
+    width: 20px;
+    background-color:green;
+    margin: 0.5px;
+animation: charge 5s linear infinite;
+
+}
+@keyframes charge {
+    0%{
+        background-color: red;
+        width: 1px;
+    }
+    20%{
+        background-color: yellow;
+        width: 4px;
+    }
+    50%{
+        background-color: #3bff1c;
+        width: 10px;
+    }
+    80%{
+        background-color: greenyellow;
+        width: 16px;
+    }
+    100%{
+        ackground-color: green;
+        width: 20px;
+    }
+}
