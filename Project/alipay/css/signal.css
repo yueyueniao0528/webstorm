@@ -129,10 +129,10 @@
 
 }
 #battery-core{
-    height: 10px;
+    height: 10.5px;
     width: 20px;
     background-color:green;
-    margin: 0.5px;
+    margin: 0.6px;
     animation: charge 5s linear infinite;
 
 }
@@ -143,19 +143,19 @@
     }
     20%{
         background-color: yellow;
-        width: 4px;
+        width: 8px;
 
     }
     50%{
         background-color: #3bff1c;
-        width: 10px;
+        width: 15px;
     }
     80%{
         background-color: greenyellow;
-        width: 16px;
+        width: 23px;
     }
     100%{
-        ackground-color: green;
-        width: 20px;
+        background-color: chartreuse;
+        width: 32px;
     }
 }

@@ -1,0 +1,173 @@
+#title2{
+    height: 120px;
+    background-color: #2196F3;
+    justify-content: space-between;
+
+}
+#title-top{
+    height: 40px;
+}
+#title-top-left{
+    height: 40px;
+    flex: 1;
+}
+.title-top-ziti{
+    font-size: 15px;
+    color: #EEEEEE;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+#title-top-right{
+    height: 40px;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+.title-top-rimga{
+    height: 25px;
+    width: 25px;
+
+}
+#title-top-rimg{
+    background-image: url(../img/sousuo.svg);
+}
+
+.title-center{
+    height:20px;
+}
+#title-center-lk{
+     flex: 1;
+ }
+#title-center-ck{
+    flex: 1;
+}
+
+#title-center-l{
+    width: 80px;
+    height:20px;
+}
+.title-center-ziti{
+    font-size: 10px;
+    color:#BDBDBD;
+    line-height: 20px;
+}
+
+.title-center-zp{
+    margin-left: 10px;
+}
+.title-center-zp1{
+    margin-left: -20px;
+}
+.title-center-zp2{
+    margin-left: -16px;
+}
+.title-center-zp3{
+    margin-left: 45px;
+}
+.title-center-zp3{
+    margin-left: 45px;
+}
+#title-center-r {
+    width: 200px;
+    height: 20px;
+}
+
+#title-center-cl{
+    /*width: 20px;*/
+    /*height:20px;*/
+    flex: 1;
+}
+.title-center-climga{
+    width: 15px;
+    height:15px;
+}
+#title-center-climg{
+    background-image: url(../img/baozhang.svg);
+}
+
+#title-center-cr{
+
+    flex: 1;
+}
+
+#title-center-rl{
+
+    flex: 1;
+    height:20px;
+}
+#title-center-rr{
+
+    flex: 1;
+    height:20px;
+}
+#title-center-climg1{
+    background-image: url(../img/yanjing.svg);
+}
+
+#title-bottom {
+    height: 40px;
+}
+#title-bottoml{
+    flex: 1;
+}
+.title-bottom-ziti{
+    font-size: 20px;
+    color: #EEEEEE;
+    line-height: 40px;
+    margin-left: 10px;
+
+}
+
+#title-bottomr{
+    flex: 1;
+}
+#title-bottomrl{
+    flex: 1;
+    height: 40px;
+}
+#title-bottomrr{
+    flex: 1;
+    height: 40px;
+}
+.title-bottom-ziti1{
+    font-size: 20px;
+    color: #EEEEEE;
+    line-height: 40px;
+    margin-left: 65px;
+
+}
+.flow-1{
+    display: flex;
+    flex-flow: row;
+}
+.title-bottombl{
+    height: 20px;
+    width: 50px;
+}
+.title-bottombc{
+    height: 20px;
+    width: 50px;
+}
+.title-bottombcl{
+    height: 20px;
+    width: 50px;
+}
+.title-bottombr{
+    height: 20px;
+    width: 50px;
+}
+.title-bottomp {
+    margin-left: 15px;
+}
+
+.title-bottomp1{
+    margin-left: -1px;
+}
+.title-bottomp2 {
+    margin-left: 15px;
+}
+
+.title-bottomp3 {
+    margin-left: -8px;
+}

@@ -1,0 +1,67 @@
+#title3{
+    height:45px;
+    background-color: #2196F3;
+}
+#title3-top-left{
+    width: 20%;
+    height: 45px;
+}
+
+#title3-top-leftl{
+    width: 80%;
+}
+#title3-top-leftr{
+    width: 20%;
+}
+#title3-top-leftlziti{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 45px;
+    text-align: center;
+}
+.title3-top-leftlima{
+    height: 15px;
+    width: 15px;
+    margin-top:22px;
+    margin-left: -10px;
+}
+#title3-top-leftlim{
+    background-image: url(../img/xiesanjiao.svg);
+}
+
+
+#title3-top-center {
+    flex: 1;
+    height: 45px;
+}
+#title3-top-center-input{
+    background-color: #ffffff;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px 3px 3px 3px;
+    margin-top: 10px;
+}
+
+#title3-top-right {
+    width: 20%;
+    height: 45px;
+}
+#title3-top-rightl{
+    width: 50%;
+}
+.title3-top-rightima{
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+}
+#title3-top-rightimg1{
+    background-image: url(../img/jishiben.svg);
+}
+#title3-top-rightimg2{
+    background-image: url(../img/wo.svg);
+}
+
+#title3-top-rightr{
+    width: 50%;
+}

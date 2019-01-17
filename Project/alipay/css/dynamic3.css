@@ -1,0 +1,253 @@
+#dynamic3-topt{
+    height: 80px;
+}
+.dynamic3-toptarea{
+    height: 80px;
+    width: 100%;
+}
+#dynamic3-toptimg {
+    background-image: url(../img/pulicpraisephoto/1.jpg);
+}
+
+#dynamic3-toptimg:hover {
+    background-image: url(../img/pulicpraisephoto/2.jpg);
+}
+
+
+/**************************************/
+#dynamic3-topc{
+    height: 120px;
+    display: flex;
+    flex-flow: wrap;
+}
+.dynamic3-topcarea{
+    height: 60px;
+    width: 72px;
+}
+.dynamic3-topcareat{
+    height: 70%;
+}
+.dynamic3-topcareatima{
+    width: 35px;
+    height: 35px;
+}
+#dynamic3-topcareatimg1 {
+    background-image: url(../img/美食1.svg);
+}
+#dynamic3-topcareatimg2 {
+    background-image: url(../img/饿了么.svg);
+}
+
+#dynamic3-topcareatimg3 {
+    background-image: url(../img/点餐.svg);
+}
+#dynamic3-topcareatimg4 {
+    background-image: url(../img/淘票票1.svg);
+}
+#dynamic3-topcareatimg5 {
+    background-image: url(../img/超市.svg);
+}
+#dynamic3-topcareatimg6 {
+    background-image: url(../img/游戏机.svg);
+}
+#dynamic3-topcareatimg7 {
+    background-image: url(../img/ktv.svg);
+}
+#dynamic3-topcareatimg8 {
+    background-image: url(../img/女人.svg);
+}
+#dynamic3-topcareatimg9 {
+    background-image: url(../img/结婚.svg);
+}
+#dynamic3-topcareatimg10 {
+    background-image: url(../img/全部.svg);
+}
+
+.dynamic3-topcareab{
+    height: 30%;
+}
+.dynamic3-topcareabziti{
+    font-size: 12px;
+    text-align: center;
+}
+#dynamic3-topbj{
+    height: 10px;
+}
+.dynamic3-topbjimgl{
+    width: 20px;
+    height: 10px;
+    margin-left: 160px;
+}
+#dynamic3-topbjlimg{
+    background-image: url(../img/横杠.svg);
+}
+.dynamic3-topbjimgr{
+    width: 20px;
+    height: 10px;
+    margin-left: -10px;
+}
+#dynamic3-topbjrimg{
+    background-image: url(../img/横杠1.svg);
+}
+.flow-f{
+    display: flex;
+    flex-flow: row;
+}
+
+/**************************************/
+#dynamic3-topb{
+    height: 30px;
+}
+
+
+/**************************************/
+#dynamic3-centert{
+    height: 60px;
+}
+.dynamic3-centertima{
+    height: 60px;
+    width: 100%;
+}
+#dynamic3-centertima{
+    background-image: url(../img/pulicpraisephoto/tu2.jpg);
+}
+
+
+/**************************************/
+#dynamic3-centerc{
+    height: 80px;
+}
+#dynamic3-centercimg{
+    background-image: url(../img/pulicpraisephoto/tu1.jpg);
+}
+#dynamic3-centercimg:hover{
+    background-image: url(../img/pulicpraisephoto/tu3.jpg);
+}
+/**************************************/
+#dynamic3-centerb{
+    height: 30px;
+}
+.dynamic3-centerbr{
+    width: 5px;
+}
+.dynamic3-centerbzit1{
+    font-size: 15px;
+    color: grey;
+    margin-top: 3px;
+    margin-left: -12px;
+
+}
+#dynamic3-centerbzit2{
+    font-size: 10px;
+    color: grey;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/**************************************/
+
+#dynamic3-bottomt{
+    height: 150px;
+
+}
+.dynamic3-bottomtarea{
+    width: 33%;
+}
+.dynamic3-bottomtareat{
+    height: 60%;
+}
+.dynamic3-bottomtareab{
+    height: 40%;
+}
+.dynamic3-bottomtareima{
+    height: 80px;
+    width: 110px;
+}
+#dynamic3-bottomtareimg1{
+    background-image: url(../img/pulicpraisephoto/timg.jpg);
+}
+#dynamic3-bottomtareimg2{
+    background-image: url(../img/pulicpraisephoto/bishengke0.jpg);
+}
+
+#dynamic3-bottomtareimg3{
+    background-image: url(../img/pulicpraisephoto/niuroufen.jpg);
+}
+.dynamic3-bottomtarezit1{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.dynamic3-bottomtarezit2{
+    font-size: 10px;
+    color: red;
+    margin-left: -40px;
+}
+.dynamic3-bottomtarezit3{
+    font-size: 10px;
+    color: grey;
+    margin-left: 10px;
+}
+
+.shanchuxian{
+    text-decoration:line-through
+}
+
+
+
+
+
+/**************************************/
+#dynamic3-bottomc{
+    height: 30px;
+}
+#dynamic3-bottomcar{
+    width:  50%;
+    margin-left:75px;
+}
+#dynamic3-bottomcar{
+    height: 30px;
+}
+.dynamic3-bottomcr{
+height: 25px;
+    width: 25px;
+}
+
+
+/**************************************/
+#dynamic3-bottomb{
+    height: 300px;
+}
+.dynamic3-bottomba{
+    height: 50%;
+}
+.dynamic3-bottombl{
+   flex: 1;
+}
+#dynamic3-bottomblimg1 {
+    background-image: url(../img/pulicpraisephoto/ken.jpg);
+}
+#dynamic3-bottomblimg2 {
+    background-image: url(../img/pulicpraisephoto/hao.png);
+}
+
+
+#dynamic3-bottomblimg4 {
+    background-image: url(../img/pulicpraisephoto/hao.jpg);
+}
+
+
+
+
+
+
+.dynamic3-bottombla{
+   width: 200px;
+    height:100px;
+}
+
+
+
+
+.dynamic3-bottombr{
+    width: 33%;
+}

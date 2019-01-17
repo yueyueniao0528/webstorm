@@ -1,0 +1,262 @@
+#dynamic-topt{
+    height: 80px;
+    display: flex;
+    flex-flow:column;
+}
+#dynamic-toptareat{
+    height: 70%;
+    display: flex;
+    flex-flow:row;
+}
+
+.dynamic-toptare{
+  width: 25%;
+}
+.dynamic-toptimga{
+    height: 75%;
+}
+.dynamic-toptimgam{
+   height: 30px;
+    width: 30px;
+}
+.dynamic-toptimgamy{
+    height: 35px;
+    width: 35px;
+}
+#dynamic-toptimg1{
+    background-image: url(../img/定期理财.svg);
+}
+#dynamic-toptimg2{
+    background-image: url(../img/基金.svg);
+}
+#dynamic-toptimg3{
+    background-image: url(../img/photo/yuebao.jpg);
+}
+#dynamic-toptimg4{
+    background-image: url(../img/黄金2.svg);
+}
+#dynamic-toptimg5{
+    background-image: url(../img/股票.svg);
+}
+
+.dynamic-toptzitia{
+    height: 25%;
+}
+.dynamic-toptziti{
+    font-size: 12px;
+    color:black;
+}
+
+
+#dynamic-toptareab{
+    height: 24px;
+}
+#dynamic-toptareaba{
+    height: 24px;
+    width:85%;
+}
+.borders{
+    border-bottom: #EEEEEE solid 1px;
+}
+#dynamic-toptziti1{
+    font-size: 15px;
+    color: #4b5257;
+    margin-top: 6px;
+}
+/**********************************************/
+
+
+#dynamic-topc{
+    height: 80px;
+}
+.dynamic-topcimga{
+    height: 80px;
+    width: 100%;
+}
+#dynamic-topcimg1{
+    background-image: url(../img/photo/topctu.jpg);
+}
+
+
+
+
+/**********************************************/
+#dynamic-topb{
+    height: 30px;
+}
+.dynamic-topbl{
+    width: 50%;
+}
+.dynamic-topbr{
+    width: 50%;
+}
+.dynamic-topbziti1{
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.dynamic-topbziti2{
+    font-size: 12px;
+    color: grey;
+    line-height: 30px;
+    margin-left:120px;
+}
+
+
+
+/**********************************************/
+#dynamic-topbd {
+    height: 150px;
+}
+.dynamic-topbdimga{
+    height: 150px;
+    width: 100%;
+}
+#dynamic-topbdimg1{
+    background-image: url(../img/photo/topbd1.jpg);
+}
+#dynamic-topbdimg1:hover{
+    background-image: url(../img/photo/topd2.jpg);
+}
+
+
+/**********************************************/
+#dynamic-centert{
+    height: 30px;
+}
+.dynamic-topbziti3{
+    font-size: 12px;
+    color: grey;
+    line-height: 30px;
+    margin-left:145px;
+}
+/**********************************************/
+#dynamic-centerc {
+    height:150px;
+}
+#dynamic-centercarea{
+    height:150px;
+    width: 90%;
+}
+#dynamic-centercta{
+    height: 40%;
+    /*background-color:#B2DFDB;*/
+}
+#dynamic-centerctal{
+    width: 25%;
+}
+.dynamic-centerctaia{
+    height: 45px;
+    width: 45px;
+}
+#dynamic-centerctaimg{
+    background-image: url(../img/photo/centerc.jpg);
+}
+
+
+#dynamic-centerctac{
+    width: 55%;
+}
+.dynamic-centerctaczi1{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.dynamic-centerctaczi2{
+    font-size: 10px;
+    color: grey;
+}
+
+#dynamic-centerctar{
+    flex: 1;
+}
+#dynamic-centerctara{
+    height: 20px;
+    width: 50px;
+    background-color: #E1F5FE;
+}
+.bordercs{
+    border: #29B6F6 solid 1px;
+}
+#dynamic-centerctarziti{
+    font-size: 10px;
+    color: #00BCD4;
+    line-height: 20px;
+}
+
+#dynamic-centercba{
+    height: 60%;
+}
+.dynamic-centercbal{
+    width: 33%;
+}
+.dynamic-centercbalt{
+   height: 50%;
+}
+.dynamic-centercbaltima{
+    height: 30px;
+    width: 30px;
+}
+#dynamic-centercbaltimg1 {
+    background-image: url(../img/jiahao.svg);
+}
+#dynamic-centercbaltimg2 {
+    background-image: url(../img/celan.svg);
+}
+
+#dynamic-centercbaltimg3 {
+    background-image: url(../img/licaitou.svg);
+}
+
+
+.dynamic-centercbalb{
+    height:  50%;
+}
+.dynamic-centercbalbziti1{
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.dynamic-centercbalbziti2{
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+}
+.bordercenter{
+    border: #EEEEEE solid 1px;
+    box-shadow: 0px 1px 2px #E0E0E0;
+}
+.border111{
+    border-bottom: #EEEEEE solid 1px;
+}
+
+
+/**********************************************/
+/*#dynamic-centerb {*/
+    /*height: 30px;*/
+/*}*/
+/**********************************************/
+/*#dynamic-bottomt{*/
+    /*height: 200px;*/
+/*}*/
+/*#dynamic-bottomb{*/
+    /*height: 100px;*/
+/*}*/
+/*#dynamic-bottomc{*/
+    /*height: 60px;*/
+/*}*/
+/*#dynamic-bottombb1{*/
+    /*height: 30px;*/
+/*}*/
+/*#dynamic-bottombbt{*/
+    /*height: 300px;*/
+/*}*/
+/*#dynamic-bottombbc{*/
+    /*height: 30px;*/
+/*}*/
+/*#dynamic-bottombbb{*/
+    /*height: 100px;*/
+/*}*/
+/*#dynamic-bottom{*/
+    /*height: 80px;*/
+/*}*/

@@ -2,9 +2,7 @@
     flex: 1;
     background-color: white;
     overflow: scroll;
-
     flex-flow: column;
-
 }
 #dynamic-top{
     height: 150px;
