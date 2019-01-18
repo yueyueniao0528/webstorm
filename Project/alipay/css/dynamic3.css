@@ -28,8 +28,8 @@
     height: 70%;
 }
 .dynamic3-topcareatima{
-    width: 35px;
-    height: 35px;
+    width: 26px;
+    height: 26px;
 }
 #dynamic3-topcareatimg1 {
     background-image: url(../img/美食1.svg);
@@ -164,14 +164,14 @@
     width: 110px;
 }
 #dynamic3-bottomtareimg1{
-    background-image: url(../img/pulicpraisephoto/timg.jpg);
+    background-image: url(../img/pulicpraisephoto/kend.jpg);
 }
 #dynamic3-bottomtareimg2{
-    background-image: url(../img/pulicpraisephoto/bishengke0.jpg);
+    background-image: url(../img/pulicpraisephoto/bi.jpg);
 }
 
 #dynamic3-bottomtareimg3{
-    background-image: url(../img/pulicpraisephoto/niuroufen.jpg);
+    background-image: url(../img/pulicpraisephoto/niu.jpg);
 }
 .dynamic3-bottomtarezit1{
     font-size: 12px;
@@ -230,6 +230,9 @@ height: 25px;
     background-image: url(../img/pulicpraisephoto/hao.png);
 }
 
+#dynamic3-bottomblimg3 {
+    background-image: url(../img/pulicpraisephoto/xing.jpg);
+}
 
 #dynamic3-bottomblimg4 {
     background-image: url(../img/pulicpraisephoto/hao.jpg);
@@ -241,13 +244,28 @@ height: 25px;
 
 
 .dynamic3-bottombla{
-   width: 200px;
-    height:100px;
+   width: 230px;
+    height:140px;
+}
+#dynamic3-bottomblaimg1{
+    background-image: url(../img/pulicpraisephoto/niupaida.jpg);
 }
 
+#dynamic3-bottomblaimg2{
+    background-image: url(../img/pulicpraisephoto/bai.jpg);
+}
 
 
 
 .dynamic3-bottombr{
     width: 33%;
+}
+#dynamic3-bottombrimg1{
+    background-image: url(../img/pulicpraisephoto/bi2.jpg);
+}
+#dynamic3-bottombrimg2{
+    background-image: url(../img/pulicpraisephoto/lai.jpg);
+}
+#dynamic3-bottombrimg3{
+    background-image: url(../img/pulicpraisephoto/ji.jpg);
 }

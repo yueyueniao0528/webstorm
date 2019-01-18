@@ -1,0 +1,144 @@
+.dynamic5-top {
+    height: 40px;
+}
+.dynamic5-topl{
+    width: 20%;
+}
+.dynamic5-toplima{
+    width: 30px;
+    height: 30px;
+}
+.dynamic5-toplimacl1{
+    background-color: #1296db;
+}
+
+#dynamic5-toplimg{
+background-image: url(../img/蚂蚁会员icon.svg);
+}
+#dynamic5-toplimg1{
+    background-image: url(../img/商家.svg);
+}
+#dynamic5-toplimg2{
+    background-image: url(../img/账单.svg);
+}
+#dynamic5-toplimg3{
+    background-image: url(../img/饼形图.svg);
+}
+#dynamic5-toplimg4{
+    background-image: url(../img/钱.svg);
+}
+#dynamic5-toplimg5{
+    background-image: url(../img/余额宝2.svg);
+}
+#dynamic5-toplimg6{
+    background-image: url(../img/花呗.svg);
+}
+#dynamic5-toplimg7{
+    background-image: url(../img/余利宝.svg);
+}
+#dynamic5-toplimg8{
+    background-image: url(../img/银行卡.svg);
+}
+#dynamic5-toplimg9{
+    background-image: url(../img/芝麻信用.svg);
+}
+#dynamic5-toplimg10{
+    background-image: url(../img/保3.svg);
+}
+#dynamic5-toplimg11{
+    background-image: url(../img/借呗.svg);
+}
+#dynamic5-toplimg12{
+    background-image: url(../img/网商银行.svg);
+}
+#dynamic5-toplimg13{
+    background-image: url(../img/书本_disc.svg);
+}
+#dynamic5-toplimg14{
+    background-image: url(../img/客服.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dynamic5-topcl{
+   flex: 1;
+    position:relative;
+}
+.dynamic5-topclziti{
+    font-size: 13px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+
+.dynamic5-topcr{
+    flex: 1;
+    position:relative;
+}
+.dynamic5-topcrziti {
+    font-size: 10px;
+    color: grey;
+    position: absolute;
+    left: 55px;
+    top: 13px;
+}
+.dynamic5-topcrziti1 {
+    font-size: 10px;
+    color: #26C6DA;
+    position: absolute;
+    left: 55px;
+    top: 13px;
+}
+.dynamic5-topcrzitip{
+    position: absolute;
+    left:95px;
+    top: 13px;
+}
+.dynamic5-topcrzitip1{
+    position: absolute;
+    left:60px;
+    top: 13px;
+}
+
+
+
+
+
+
+
+.dynamic5-topr{
+    width: 8%;
+    position:relative;
+}
+.dynamic5-toprziti {
+    font-size: 12px;
+    color: grey;
+    position: absolute;
+    left: 5px;
+    top: 11px;
+}
+.dynamic5-top-border1{
+    border-bottom: #EEEEEE solid 1px;
+}
+.dynamic5-top-border2{
+    border-bottom: #EEEEEE solid 5px;
+}

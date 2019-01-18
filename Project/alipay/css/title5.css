@@ -1,0 +1,96 @@
+#title5{
+    height:110px;
+    background-color: #2196F3;
+}
+#title5-top{
+    height: 30%;
+}
+.title5-top-point{
+
+}
+.title5-top-ziti{
+    font-size: 15px;
+    color: #EEEEEE;
+    line-height: 40px;
+    margin-left: 135px;
+}
+.title5-top-ziti1{
+    font-size: 15px;
+    color: #EEEEEE;
+    line-height: 40px;
+    margin-left: 18px;
+}
+#title5-bottom{
+  flex: 1;
+}
+#title5-bottoml{
+    width: 20%;
+}
+.title5-bottomlimg1{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 45px;
+    top: 45px;
+    border-radius: 50%;
+    background-color:#2196F3;
+
+}
+#title5-bottomlimgx{
+    background-image: url(../img/四角星.svg);
+}
+
+
+
+.title5-bottomlima{
+    width: 55px;
+    height: 55px;
+    position: relative;
+
+}
+#title5-bottomlimg{
+    background-image: url(../img/photo/ziji.jpg);
+}
+
+
+#title5-bottomc{
+   flex: 1;
+}
+.title5-bottomcziti1{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.title5-bottomczitia{
+    width: 80px;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px ;
+    background-color: #29B6F6;
+    margin-top: 12px;
+}
+.title5-bottomcziti2{
+    color: white;
+    font-size: 10px;
+}
+.flew-f2{
+    display: flex;
+    flex-flow: column;
+}
+.title5-bottomcziti3{
+    color: white;
+    font-size: 18px;
+
+}
+.title5-bottomrborder1{
+    border: #00BCD4 solid 2px;
+}
+.title5-bottomrborder2{
+    border: white solid 1px;}
+
+
+
+#title5-bottomr{
+    width: 10%;
+}
+

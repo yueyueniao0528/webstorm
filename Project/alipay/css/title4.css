@@ -1,0 +1,61 @@
+#title4{
+    height:45px;
+    background-color: #2196F3;
+}
+#title4-left{
+    height: 45px;
+    flex: 1px;
+}
+.title4-leftziti{
+    font-size: 14px;
+    color: white;
+    margin-left: -190px;
+
+
+}
+#title4-leftimgr{
+    width: 20%;
+}
+.title4-leftimgra{
+    width: 15px;
+    height: 16px;
+    margin-top: -5px;
+}
+#title4-leftimgrimg{
+    background-image: url(../img/sousuo.svg);
+}
+#title4-leftimgad{
+   width:  80px;
+    margin-top: 5px;
+}
+/****************************************/
+#title-menuskuo1 {
+    height: 250px;
+    width: 180px;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 2px;
+    top: 65px;
+    display: none;
+}
+#title-menusx{
+    height: 245px;
+    width: 150px;
+    background-color: #F5F5F5 ;
+    position: absolute;
+    right: 2px;
+    top: 10px;
+
+}
+#title4-menusximg1{
+    background-image: url(../img/发起群聊.svg);
+}
+#title4-menusximg2{
+    background-image: url(../img/添加朋友.svg);
+}
+#title4-menusximg3{
+    background-image: url(../img/蚂蚁1.svg);
+}
+

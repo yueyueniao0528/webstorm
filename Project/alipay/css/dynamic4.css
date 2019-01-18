@@ -1,0 +1,152 @@
+#dynamic4-topt{
+    height: 100px;
+}
+.dynamic4-toptarea{
+    height: 100px;
+    width: 33%;
+}
+.dynamic4-toptareat{
+    height:60%;
+}
+.dynamic4-toptareab{
+    height:40%;
+}
+.dynamic4-toptareatima{
+    height: 45px;
+    width: 45px;
+
+}
+.dynamic4-toptareatimacl1{
+    background-color: #2196F3;
+}
+.dynamic4-toptareatimacl2{
+    background-color: #81D4FA;
+}
+.dynamic4-toptareatimacl3{
+    background-color: #FFAB91;
+}
+
+#dynamic4-toptareatimg1{
+    background-image: url(../img/保1.svg);
+
+}
+#dynamic4-toptareatimg2{
+    background-image: url(../img/小程序.svg);
+
+}
+#dynamic4-toptareatimg3{
+    background-image: url(../img/生活圈.svg);
+
+}
+.dynamic4-toptareatiziti1{
+    font-size: 12px;
+}
+.dynamic4-toptareatiziti2{
+    font-size: 10px;
+    color: grey;
+}
+.dynamic4-border1{
+    border-right: #EEEEEE solid 1px;
+}
+.dynamic4-border2{
+    border-bottom: #EEEEEE solid 8px;
+}
+/************************************/
+
+.dynamic4-bottoma{
+    height: 60px;
+}
+
+.dynamic4-bottomal{
+    width:20%;
+}
+.dynamic4-bottomalima{
+    height: 45px;
+    width: 45px;
+}
+#dynamic4-bottomalimg1{
+    background-image: url(../img/服务提醒定制.svg);
+}
+#dynamic4-bottomalimg2{
+    background-image: url(../img/shenghuo.svg);
+}
+
+#dynamic4-bottomalimg3{
+    background-image: url(../img/花呗.svg);
+}
+
+#dynamic4-bottomalimg4{
+    background-image: url(../img/yidong.svg);
+}
+
+#dynamic4-bottomalimg5{
+    background-image: url(../img/shouji12.svg);
+}
+
+#dynamic4-bottomalimg6{
+    background-image: url(../img/蚂蚁森林logo.svg);
+}
+
+#dynamic4-bottomalimg7{
+    background-image: url(../img/yanjing1.svg);
+}
+
+#dynamic4-bottomalimg8{
+    background-image: url(../img/didi.svg);
+}
+
+#dynamic4-bottomalimg9{
+    background-image: url(../img/t1.jpg);
+}
+
+#dynamic4-bottomalimg10{
+    background-image: url(../img/t2.jpg);
+}
+#dynamic4-bottomalimg11{
+    background-image: url(../img/gongjiao.svg);
+}
+#dynamic4-bottomalimg12{
+    background-image: url(../img/mayun.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+.dynamic4-bottomalimgcl1{
+    background-color: #4FC3F7;
+}
+
+.dynamic4-bottomac{
+    flex: 1;
+}
+.dynamic4-bottomacziti1{
+    font-size: 12px;
+    line-height: 50px;
+    margin-left: -1px;
+}
+.dynamic4-bottomacziti2{
+    font-size: 10px;
+    color: grey;
+    margin-top: -15px;
+
+}
+.dynamic4-bottomacziti3{
+    font-size: 10px;
+    color: grey;
+    margin-top: 15px;
+}
+.dynamic4-bottomaborder{
+    border-bottom: #EEEEEE solid 1px;
+}
+
+.dynamic4-bottomar{
+     width: 10%;
+ }
+/**/
