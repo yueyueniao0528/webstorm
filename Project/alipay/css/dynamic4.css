@@ -14,6 +14,7 @@
 .dynamic4-toptareatima{
     height: 45px;
     width: 45px;
+    position: relative;
 
 }
 .dynamic4-toptareatimacl1{
@@ -63,6 +64,7 @@
 .dynamic4-bottomalima{
     height: 45px;
     width: 45px;
+    position: relative;
 }
 #dynamic4-bottomalimg1{
     background-image: url(../img/服务提醒定制.svg);
@@ -76,7 +78,7 @@
 }
 
 #dynamic4-bottomalimg4{
-    background-image: url(../img/yidong.svg);
+    background-image: url(../img/zgyd.svg);
 }
 
 #dynamic4-bottomalimg5{
@@ -108,9 +110,36 @@
 #dynamic4-bottomalimg12{
     background-image: url(../img/mayun.jpg);
 }
-
-
-
+.dynamic4-dian{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #e53935;
+   position: absolute;
+    left: 35px;
+}
+.dynamic4-zi{
+    font-size: 12px;
+    color: white;
+}
+.dynamic4-dianx{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e53935;
+    position: absolute;
+    left: 40px;
+    top: -5px;
+}
+.dynamic4-dianxt{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e53935;
+    position: absolute;
+    left: 43px;
+    top: -2px;
+}
 
 
 

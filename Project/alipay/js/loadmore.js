@@ -16,14 +16,55 @@ $(function () {
             // console.log(e)
 
             //替换成 自己的 HTML ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
-            let item = $("<div class=\"item\">\n" +
-                "            <div class=\"photo\"><img src="+e.photo+" height=\"60px\" width=\"60px\"/> </div>\n" +
-                "            <div class=\"\">\n" +
-                "                <div class=\"name\">"+e.name+"</div>\n" +
-                "                <div class=\"content\">"+e.content+"</div>\n" +
+            // let item = $("<div class=\"item\">\n" +
+            //     "            <div class=\"photo\"><img src="+e.photo+" height=\"60px\" width=\"60px\"/> </div>\n" +
+            //     "            <div class=\"\">\n" +
+            //     "                <div class=\"name\">"+e.name+"</div>\n" +
+            //     "                <div class=\"content\">"+e.content+"</div>\n" +
+            //     "            </div>\n" +
+            //     "        </div>");
+            //⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+            //*********************************************
+            let item = $("<div class=\"dynamic4-bottoma  flew-flow2\">\n" +
+                "            <div class=\"dynamic4-bottomal  al-center\">\n" +
+                "                <div class=\"dynamic4-bottomalima  al-picture dynamic4-bottomalimgcl1\"\n" +
+                "                  style=\"background-image: url("+e.photo+")\">\n" +
+                "\n" +
+                "                </div>\n" +
+                "            </div>\n" +
+                "            <div class=\"dynamic4-bottomac dynamic4-bottomaborder\">\n" +
+                "                <div class=\"dynamic4-bottomacziti1\">\n" +
+                "                    "+e.name+"\n" +
+                "                </div>\n" +
+                "                <div class=\"dynamic4-bottomacziti2\">\n" +
+                "                    "+e.content+"\n" +
+                "                </div>\n" +
+                "\n" +
+                "            </div>\n" +
+                "            <div class=\"dynamic4-bottomar dynamic4-bottomaborder\">\n" +
+                "                <div class=\"dynamic4-bottomacziti3\">\n" +
+                "                    "+e.time+"\n" +
+                "                </div>\n" +
                 "            </div>\n" +
                 "        </div>");
-            //⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+
+            //*********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             $("#container").append(item);
         })

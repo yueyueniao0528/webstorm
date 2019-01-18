@@ -55,11 +55,23 @@ menus-centerrt{
     /*flex: 1;*/
     height: 35px;
 }
+/*****************/
+/*.menu {*/
+    /*height: 50px;*/
+    /*flex: 1;*/
 
+    /*background-size: 20px;*/
+    /*background: no-repeat center;*/
+/*}*/
+/*****************/
 .menus-img{
     height: 25px;
     width: 25px;
     margin-top: 10px;
+    /*flex: 1;*/
+
+    /*background-size: 20px;*/
+    /*background: no-repeat center*/
 }
 .menus-ziti{
     flex: 1;
