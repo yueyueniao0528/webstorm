@@ -3,8 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+
+    <style>
+
+        #img {
+            height: 200px;
+            width: 200px;
+            border: 1px solid crimson;
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+    </style>
 </head>
 <body>
+     <div id="img" style="background-image: url(img/dongtaiphoto/1.jpg)"></div>
 
+
+
+     </div>
 </body>
 </html>
+<script src="../alipay/js/frame/jquery.js"></script>
+
+
+<script>
+    let index = 2;
+
+    let task;
+
+    function loadImg() {
+        if (index === 9) index = 1;
+        $("#img").css("background-image", "url(img/dongtaiphoto/" + index + ".jpg)");
+        index++;
+    }
+
+    $(function(){ //当页面加载时
+
+        task = setInterval("loadImg()" , 1000); //启动定时器
+
+        $("#img").mouseover(function(){ //鼠标经过
+            window.clearInterval(task);
+        });
+
+        $("#img").mouseout(function(){ //鼠标移出
+            task = setInterval("loadImg()", 1000);
+        })
+
+    })
+
+</script>

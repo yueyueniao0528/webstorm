@@ -141,14 +141,18 @@
     width: 100%;
 }
 
+/*#dynamic-centerc-img{*/
+    /*background-image: url(../img/photo/al1.jpg);*/
+/*}*/
+/*#dynamic-centerc-img:hover{*/
+    /*background-image: url(../img/photo/al2.jpg);*/
+/*}*/
+/*#dynamic-centerc-img:hover:hover{*/
+    /*background-image: url(../img/photo/al3.jpg);*/
+/*}*/
+
 #dynamic-centerc-img{
-    background-image: url(../img/photo/al1.jpg);
-}
-#dynamic-centerc-img:hover{
-    background-image: url(../img/photo/al2.jpg);
-}
-#dynamic-centerc-img:hover:hover{
-    background-image: url(../img/photo/al3.jpg);
+    background-image: url(../img/dongtaiphoto1/1.jpg);
 }
 
 .dynamic-centerb{

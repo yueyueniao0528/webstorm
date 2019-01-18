@@ -338,6 +338,10 @@
        "id="dynamic-centerc-img" > </div>
         </div>
 
+
+
+
+
     <div class="dynamic-centerb">
       <div class="dynamic-centerb-t">
           <div class="dynamic-centerb-zi1">惠支付</div>
@@ -724,6 +728,30 @@
 
             $("#title-menuskuo").toggle(400);
 
+        })
+
+    })
+
+    let index = 2;
+
+    let task;
+
+    function loadImg() {
+        if (index ===4) index = 1;
+        $("#dynamic-centerc-img").css("background-image", "url(../img/dongtaiphoto1/" + index + ".jpg)");
+        index++;
+    }
+
+    $(function(){ //当页面加载时
+
+        task = setInterval("loadImg()" , 1000); //启动定时器
+
+        $("#dynamic-centerc-img").mouseover(function(){ //鼠标经过
+            window.clearInterval(task);
+        });
+
+        $("#dynamic-centerc-img").mouseout(function(){ //鼠标移出
+            task = setInterval("loadImg()", 1000);
         })
 
     })

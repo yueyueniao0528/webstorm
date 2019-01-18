@@ -5,14 +5,17 @@
     height: 80px;
     width: 100%;
 }
+/*#dynamic3-toptimg {*/
+    /*background-image: url(../img/pulicpraisephoto/1.jpg);*/
+/*}*/
+
+/*#dynamic3-toptimg:hover {*/
+    /*background-image: url(../img/pulicpraisephoto/2.jpg);*/
+/*}*/
+
 #dynamic3-toptimg {
-    background-image: url(../img/pulicpraisephoto/1.jpg);
+    background-image: url(../img/dongtaiphoto/1.jpg);
 }
-
-#dynamic3-toptimg:hover {
-    background-image: url(../img/pulicpraisephoto/2.jpg);
-}
-
 
 /**************************************/
 #dynamic3-topc{
@@ -117,12 +120,26 @@
 #dynamic3-centerc{
     height: 80px;
 }
+/*#dynamic3-centercimg{*/
+    /*background-image: url(../img/pulicpraisephoto/tu1.jpg);*/
+/*}*/
+/*#dynamic3-centercimg:hover{*/
+    /*background-image: url(../img/pulicpraisephoto/tu3.jpg);*/
+/*}*/
 #dynamic3-centercimg{
-    background-image: url(../img/pulicpraisephoto/tu1.jpg);
+    background-image: url(../img/dongtaiphoto2/1.jpg);
 }
 #dynamic3-centercimg:hover{
-    background-image: url(../img/pulicpraisephoto/tu3.jpg);
+    background-image: url(../img/dongtaiphoto2/2.jpg);
 }
+
+
+
+
+
+
+
+
 /**************************************/
 #dynamic3-centerb{
     height: 30px;

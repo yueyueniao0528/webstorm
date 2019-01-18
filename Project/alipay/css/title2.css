@@ -5,7 +5,8 @@
 
 }
 #title-top{
-    height: 40px;
+    height: 45px;
+    background-color: #2196F3;
 }
 #title-top-left{
     height: 40px;
@@ -35,6 +36,7 @@
 
 .title-center{
     height:20px;
+    background-color: #2196F3;
 }
 #title-center-lk{
      flex: 1;
@@ -107,6 +109,7 @@
 
 #title-bottom {
     height: 40px;
+    background-color: #2196F3;
 }
 #title-bottoml{
     flex: 1;

@@ -13,7 +13,7 @@
     <link href="../css/title3.css" rel="stylesheet">
     <link href="../css/dynamic2.css" rel="stylesheet">
     <link href="../css/dynamic3.css" rel="stylesheet">
-    <!--<link rel="stylesheet" href="../css/title2.css">-->
+
 </head>
 <body>
 <div class="container">
@@ -564,25 +564,7 @@
         </div>
     </div>
 
-
-
     <!-- 主体层 : end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- 菜单层 : start -->
     <div class="menus">
@@ -638,3 +620,59 @@
 
 </body>
 </html>
+<script src="../../alipay/js/frame/jquery.js"></script>
+
+
+<script>
+    let index = 2;
+
+    let task;
+
+    function loadImg() {
+        if (index ===9) index = 1;
+        $("#dynamic3-toptimg").css("background-image", "url(../img/dongtaiphoto/" + index + ".jpg)");
+        index++;
+    }
+
+    $(function(){ //当页面加载时
+
+        task = setInterval("loadImg()" , 1000); //启动定时器
+
+        $("#dynamic3-toptimg").mouseover(function(){ //鼠标经过
+            window.clearInterval(task);
+        });
+
+        $("#dynamic3-toptimg").mouseout(function(){ //鼠标移出
+            task = setInterval("loadImg()", 1000);
+        })
+
+    })
+
+</script>
+<!--<script>-->
+    <!--let index1 = 2;-->
+
+    <!--let task1;-->
+
+    <!--function loadImg() {-->
+        <!--if (index1 ===3) index = 1;-->
+        <!--$("#dynamic3-centercimg").css("background-image", "url(../img/dongtaiphoto2/" + index1 + ".jpg)");-->
+        <!--index1++;-->
+    <!--}-->
+
+    <!--$(function(){ //当页面加载时-->
+
+        <!--task1 = setInterval("loadImg()" , 1000); //启动定时器-->
+
+        <!--$("#dynamic3-centercimg").mouseover(function(){ //鼠标经过-->
+            <!--window.clearInterval(task1);-->
+        <!--});-->
+
+        <!--$("#dynamic3-centercimg").mouseout(function(){ //鼠标移出-->
+            <!--task1 = setInterval("loadImg()", 1000);-->
+        <!--})-->
+
+    <!--})-->
+
+<!--</script>-->
+
