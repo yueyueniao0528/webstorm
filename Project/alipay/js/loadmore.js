@@ -4,8 +4,9 @@ let messages =[];
 $(function () {
 
     //请求   // 初始化加载
-    $.getJSON("data/message.json" , function (results) {
+    $.getJSON("../data/message.json" , function (results) {
         messages = results;
+        console.log(results)
     });
 
     //生成页面
@@ -66,13 +67,14 @@ $(function () {
 
 
 
-            $("#container").append(item);
+            $("#dynamic").append(item);
         })
 
     }
 
 //监听滚动
-    $("#container").scroll(function () {   //监听滚动事件..
+    $("#dynamic").scroll(function () {   //监听滚动事件..
+
 
         let container_totalHeight = this.scrollHeight;  //总高度
 
@@ -88,6 +90,7 @@ $(function () {
                 let arr = messages.slice((step-1) , step+4);   //splice 在原数组基础上删除某些元素 , slice 修改数组并返回副本 , 原本不动
                 createItem(arr);
                 step += 4;
+
             }, 0)
 
             // console.log("container_totalHeight =  " + container_totalHeight + " ,  container_height : " + container_height + " + scroll : "+contianer_scroll );
